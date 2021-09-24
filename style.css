@@ -91,11 +91,11 @@ ul.demo a {
   background-color: #fff;
   color: #333;
   display: block;
-  padding: 0 30px;
+  padding: 0 10px;
   text-decoration: none;
   line-height: 40px;
   background-color: rgba(141, 134, 134, 0.8);
-  font-size: 40px;
+  font-size: 30px;
 }
 
 ul.demo a:hover {
@@ -144,15 +144,16 @@ div.home {
   z-index: 1000;
   position: fixed;
   list-style: none;
-  right: 28px;
+  right: 10px;
   line-height: 430%;
 }
 
 div.home li a {
   text-decoration: none;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bolder;
   color: #333;
+  padding: 0 8px;
 }
 
 div.home li a:hover {
