@@ -18,7 +18,8 @@ div.guide h1 {
 div.message_frame {
   display: inline-block;
   position: fixed;
-  top: 12px;
+  top: 6px;
+  padding: 12px 6px 0 5px;
   right: 15px;
   height: 60px;
   width: 60px;
@@ -27,6 +28,10 @@ div.message_frame {
 div.message img {
   width: 65spx;
   height: 45px;
+}
+div.message_frame:hover {
+  box-shadow: 0 5px 30px;
+  border-radius: 50px;
 }
 
 div.message a {
