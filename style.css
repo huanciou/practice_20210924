@@ -15,6 +15,28 @@ div.guide h1 {
   font-family: "Klee One", cursive;
 }
 
+div.message_frame {
+  display: inline-block;
+  position: fixed;
+  top: 12px;
+  right: 15px;
+  height: 60px;
+  width: 60px;
+}
+
+div.message img {
+  width: 65spx;
+  height: 45px;
+}
+
+div.message a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+}
+
 div.container {
   display: flex;
   flex-wrap: wrap;
@@ -158,4 +180,27 @@ div.home li a {
 
 div.home li a:hover {
   background-color: #ef5c28;
+}
+
+div.pool {
+  position: absolute;
+  border: 1px solid black;
+  display: flex;
+  top: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  left: 0;
+}
+div.pool2 {
+  position: absolute;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 650px;
+  width: 100%;
+  height: 200px;
+  left: 0;
 }
