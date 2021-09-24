@@ -2,6 +2,7 @@ div.guide {
   background-color: rgba(141, 134, 134);
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   height: 80px;
 }
@@ -113,7 +114,7 @@ ul.demo ul {
   z-index: 99;
   left: -1px;
   top: 100%;
-  min-width: 180px;
+  min-width: 100px;
 }
 
 ul.demo ul li {
@@ -138,3 +139,22 @@ ul.demo li ul li a {
 }
 
 /* 下拉式選單 */
+
+div.home {
+  z-index: 1000;
+  position: fixed;
+  list-style: none;
+  right: 28px;
+  line-height: 430%;
+}
+
+div.home li a {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #333;
+}
+
+div.home li a:hover {
+  background-color: #ef5c28;
+}
